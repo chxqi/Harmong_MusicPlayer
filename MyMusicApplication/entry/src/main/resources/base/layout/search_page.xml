@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:orientation="vertical"
+    ohos:background_element="#5c9291"
+    >
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:top_margin="30vp"
+        ohos:orientation="horizontal">
+
+        <Image
+            ohos:height="50vp"
+            ohos:width="50vp"
+            ohos:scale_mode="stretch"
+            ohos:right_margin="10px"
+            ohos:layout_alignment="right"
+            ohos:image_src="$media:search_icon"
+            />
+
+        <TextField
+            ohos:height="50vp"
+            ohos:width="match_parent"
+            ohos:background_element="$graphic:background_text_field"
+            ohos:hint="请输入歌曲名称"
+            ohos:hint_color="#FFF"
+            ohos:text_size="20vp"
+            ohos:layout_alignment="horizontal_center"
+            ohos:text_alignment="vertical_center"
+            ohos:right_margin="10vp"
+            />
+
+
+
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:alignment="bottom|end"
+        ohos:bottom_margin="-10vp"
+
+        >
+
+        <Image
+            ohos:height="50vp"
+            ohos:width="50vp"
+            ohos:scale_mode="stretch"
+            ohos:right_margin="10px"
+            ohos:image_src="$media:user_icon"
+            />
+        <Image
+            ohos:height="50vp"
+            ohos:width="50vp"
+            ohos:scale_mode="stretch"
+            ohos:right_margin="10px"
+            ohos:image_src="$media:user_icon"
+            />
+
+
+
+    </DirectionalLayout>
+
+
+
+</DirectionalLayout>

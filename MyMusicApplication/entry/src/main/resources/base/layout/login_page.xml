@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:orientation="vertical"
+    ohos:background_element="#5c9291"
+    >
+
+    <Text
+        ohos:id="$+id:text_helloworld"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="好听音乐"
+        ohos:text_size="40vp"
+        ohos:text_color="#426579"
+        ohos:top_margin="150vp"
+        />
+
+    <DirectionalLayout
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:orientation="vertical"
+        ohos:margin="20vp"
+        ohos:padding="20vp"
+        >
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:orientation="horizontal"
+            ohos:bottom_margin="10vp"
+            >
+
+            <Image
+                ohos:height="50vp"
+                ohos:width="50vp"
+                ohos:scale_mode="stretch"
+                ohos:right_margin="10px"
+                ohos:image_src="$media:user_icon"
+                />
+
+            <TextField
+                ohos:height="50vp"
+                ohos:width="match_parent"
+                ohos:background_element="$graphic:background_text_field"
+                ohos:hint="请输入手机号"
+                ohos:text_size="20vp"
+                ohos:layout_alignment="horizontal_center"
+                ohos:text_alignment="center"
+                ohos:text_input_type="pattern_number"
+                />
+
+        </DirectionalLayout>
+
+
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:orientation="horizontal"
+            >
+
+            <Image
+                ohos:height="50vp"
+                ohos:width="50vp"
+                ohos:scale_mode="stretch"
+                ohos:right_margin="10px"
+                ohos:image_src="$media:pwd_icon"
+                />
+
+            <TextField
+                ohos:height="50vp"
+                ohos:width="match_parent"
+                ohos:background_element="$graphic:background_text_field"
+                ohos:hint="请输入密码"
+                ohos:text_size="20vp"
+                ohos:layout_alignment="horizontal_center"
+                ohos:text_alignment="center"
+                ohos:text_input_type="pattern_password"
+                />
+
+        </DirectionalLayout>
+
+        <Button
+            ohos:height="60vp"
+            ohos:width="match_parent"
+            ohos:text="登录"
+            ohos:text_size="30vp"
+            ohos:background_element="$graphic:capsule_button_element"
+            ohos:top_margin="100vp"
+            ohos:bottom_margin="20vp"
+            ohos:text_alignment="center"
+            ohos:text_color="#FFF"
+            />
+
+        <Button
+            ohos:height="60vp"
+            ohos:width="match_parent"
+            ohos:text="注册"
+            ohos:background_element="$graphic:capsule_button_element"
+            ohos:text_size="30vp"
+            ohos:text_color="#FFF"
+            />
+
+    </DirectionalLayout>
+
+</DirectionalLayout>
